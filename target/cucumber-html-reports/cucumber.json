@@ -1,0 +1,447 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 221199990,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginPageSD.IamOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6706873762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify invalid login for multiple users",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-for-multiple-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3484928863,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139621418,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter adem@gmail.com into username text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adem@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101911274,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter test123 into password text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297413791,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginPageSD.clickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1056524644,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that I am in invalid login page",
+            "match": {
+              "location": "LoginPageSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@instagram"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2713000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginPageSD.IamOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5123484017,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify invalid login for multiple users",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-for-multiple-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3469366678,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70275086,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter jim@gmail.com into username text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jim@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81863350,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter test456 into password text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test456",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296386448,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginPageSD.clickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031788601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that I am in invalid login page",
+            "match": {
+              "location": "LoginPageSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@instagram"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2867714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginPageSD.IamOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4218125258,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify invalid login for multiple users",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-for-multiple-users;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3464721106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1082782884,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter liz@gmail.com into username text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "liz@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70645022,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter 123Test into password text fields on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123Test",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageSD.enterDataUserAndPAssField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297934634,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginPageSD.clickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1032488127,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that I am in invalid login page",
+            "match": {
+              "location": "LoginPageSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@instagram"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@instagram"
+      }
+    ]
+  }
+]
